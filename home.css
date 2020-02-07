@@ -1,0 +1,781 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:active {
+    color: lightgray;
+}
+
+.guest {
+    text-decoration: underline;
+    color: black;
+}
+
+.guest:hover {
+    font-style: oblique;
+}
+
+.collab {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.collab1 {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.collab:hover {
+    font-style: oblique;
+}
+
+.works {
+    text-decoration: none;
+    color: black;
+}
+
+.works:hover {
+    color: dimgray;
+}
+
+.inpage {
+    color: black;
+    text-decoration: none;
+}
+
+.inpage:hover {
+    color: dimgray;
+}
+
+
+p {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+	background-color: #CCCCCC  ;
+	margin: 0px;
+    display: flex;
+    justify-content:flex-start;
+	flex-direction: column;
+    font-family: Union;
+}
+
+
+#main {
+	width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0px;
+    
+}
+
+#moreinfo {
+    z-index: 13;
+/*    background-color: #CCCCCC;*/
+}
+
+
+#header {
+	width: 100%;
+	height: auto;
+    position: sticky;
+    position: -webkit-sticky;
+    left:0;
+	top: 0;
+	display: flex;
+	flex-direction:column;
+	box-sizing: border-box;
+	margin: 0px;
+    background-color: #CCCCCC;
+    z-index: 40;
+}
+
+#header01 {
+	width: 100%;
+	height: 40%;
+	display: flex;
+    flex-direction: row;
+	margin: 0px;
+	color:black;
+	font-size: 18px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	box-sizing: border-box;
+	padding-top: 12px;
+    padding-left: 14px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    line-height: 1;
+/*    font-weight: bolder;*/
+    color: black;
+        -webkit-text-stroke: 0px black;
+    -webkit-text-stroke-width: var(--strokeWidth);
+}
+
+#header011 {
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding-top: 0px;
+    
+    
+}
+
+#header012 {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-color: transparent;
+    margin-right: 14px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 8%;
+    
+}
+
+#header0121 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-color: transparent;
+    text-align: center;
+}
+
+#header01211 {
+    width: 80px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: help;
+}
+
+#header01212 {
+    width: 120px;
+    height: auto ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: help;
+    font-family: Union;
+    font-size: 18px;
+}
+
+#myBtninfo {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 18px;
+    font-family: Union;
+    display: inline-block;
+    cursor: help;
+    line-height: 1;
+    outline: none;
+}
+
+
+#myBtninfo:hover {
+    color: dimgray;
+}
+
+#myBtninfo:active {
+    color: black;
+}
+
+.date {
+/*    font-size: 13px;*/
+    
+    color: #1FCA23;
+    font-family: Panama Demo;
+    letter-spacing: 0;
+    -webkit-text-stroke: 1px #1FCA23;
+    -webkit-text-stroke-width: var(--strokeWidth);
+}
+
+
+#trabalhos {
+    width: 100vw;
+    height: auto;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 18px;
+}
+
+
+
+#alwfav {
+    width: 77%;
+    height: unset;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    
+}
+
+
+#alwfav1 {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+	flex-direction: row;
+    
+}
+
+.mySlides {
+    width: 100%;
+    height: unset;
+    display: flex;
+    object-fit: contain;
+    background-color: transparent;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+
+}
+
+.butaoe {
+    width: 6%;
+    height: 45vw;
+    position: absolute;
+    align-content:flex-start;
+    justify-content: flex-start;
+    background-color: transparent;
+    z-index: 10;
+    cursor: w-resize;
+    outline: none;
+    border: none;
+}
+
+.butaod {
+    width: 80%;
+    height: 45vw;
+    position: absolute;
+    background-color: transparent;
+    z-index: 9;
+    cursor: e-resize;
+    outline: none;
+    border: none;
+    margin-left: 10%;
+}
+
+#alwfav2 {
+    width: 65vw;
+    height: unset;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    color: black;
+    line-height: 1.15;
+    padding-top: 1px;
+      column-count: 3;
+  column-width: 100px;
+
+/*    padding-bottom: 10px;*/
+}
+
+.dates {
+    color: #1FCA23;
+    font-family: Lausanne;
+    font-size: 32px;
+    letter-spacing: -0.5px;
+}
+
+.titles { 
+    font-family: Panama Demo, serif;
+    font-size: 34px;
+    color: black;
+    letter-spacing: 0;
+}
+
+.numero3 { 
+    font-family: Self Modern;
+    font-size: 26px;
+    color: black;
+}
+
+.titlesmall {
+    color: black;
+    font-family: Union;
+}
+
+.plus {
+    color: black;
+    font-weight: lighter;
+}
+
+#myBtn {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 22px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 1;
+    outline: none;
+
+}
+
+#artofwar {
+    width: 67%;
+    height: unset;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 18px;
+    
+    
+}
+
+#artofwar1 {
+    width: 100%;
+    height: 85%;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+	flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#artofwar2 {
+    width: 65vw;
+    height: 15%;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    color: black;
+    line-height: 1.15;
+}
+
+.mySlides2 {
+    width: 100%;
+    height: unset;
+    display: flex;
+    object-fit: contain;
+    background-color: transparent;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+#myBtn2 {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 22px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 1;
+    outline: none;
+
+}
+
+#cisterna {
+
+    width: 82%;
+    height: unset;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 18px;
+    
+    
+}
+
+#cisterna1 {
+    width: 99%;
+    height: 85%;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+	flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor:crosshair;
+    
+}
+
+#cisterna2 {
+    width: 65vw;
+    height: 15%;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    color: black;
+    line-height: 1.15;
+    padding-top: 1px;
+}
+
+.mySlides3 {
+    width: 100%;
+    height: unset;
+    display: flex;
+    object-fit: contain;
+    background-color: transparent;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+#myBtn3 {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 22px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 1;
+    outline: none;
+
+}
+
+#premium {
+
+    width: 68%;
+    height: unset;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 18px;
+    
+}
+
+#premium1 {
+    width: 100%;
+    height: unset;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+	flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor:crosshair;
+    
+}
+
+#premium2 {
+    width: 65vw;
+    height: 15%;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    color: black;
+    line-height: 1.15;
+    padding-top: 1px;
+}
+
+.mySlides4 {
+    width: 100%;
+    height: unset;
+    display: flex;
+    object-fit: contain;
+    background-color: transparent;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+#myBtn4 {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 22px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 1;
+    outline: none;
+
+}
+
+
+#ontherole {
+
+    width: 87%;
+    height: unset;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 18px;
+    
+}
+
+#ontherole1 {
+    width: 100%;
+    height: 85%;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+	flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor:crosshair;
+    
+}
+
+#ontherole2 {
+    width: 65vw;
+    height: 15%;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    color: black;
+    line-height: 1.15;
+    padding-top: 1px;
+}
+
+.mySlides5 {
+    width: 100%;
+    height: unset;
+    display: flex;
+    object-fit: contain;
+    background-color: transparent;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+#myBtn5 {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 22px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 1;
+    outline: none;
+
+}
+
+
+#crise {
+
+    width: 70%;
+    height: unset;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 18px;
+    
+}
+
+#crise1 {
+    width: 100%;
+    height: unset;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+	flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor:crosshair;
+    
+}
+
+#crise2 {
+    width: 65vw;
+    height: 15%;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+    color: black;
+    line-height: 1.15;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+.mySlides6 {
+    width: 100%;
+    height: unset;
+    display: flex;
+    object-fit: contain;
+    background-color: transparent;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#myBtn6 {
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 22px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 1;
+    outline: none;
+
+}
+
+#theend {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-family: Union, sans-serif;
+    line-height: 1;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: transparent;
+    margin-bottom: 18px;
+    letter-spacing: 0;
+    text-align-last: center;
+}
+
+#theend1 {
+    width: 19%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    
+}
+
+#theend2 {
+    width: 16%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+
+    
+}
+
+#theend3 {
+    width: 16%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+
+    
+}
+
+#theend4 {
+    width: 16%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+
+    
+}
+
+#theend5 {
+    width: 16%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+
+    
+}
+
+#theend6 {
+    width: 16%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+
+    
+}
+
+#footer {
+    width: 100%;
+    height: auto;
+    padding-left: 1%;
+    margin-bottom: 14px;
+    background-color: transparent; 
+    display: flex;
+    box-sizing: border-box;
+	flex-direction: row;
+    font-size: 15px;
+    color: dimgray;
+    
+}
+
+#footer1 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+#footer2 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+}

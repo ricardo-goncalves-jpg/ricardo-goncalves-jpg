@@ -1,0 +1,51 @@
+body {
+	background-color: #CCCCCC  ;
+	margin: 0px;
+    display: flex;
+    justify-content:flex-start;
+	flex-direction: column;
+    font-family: Union;
+}
+
+
+#main {
+	width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 14px;
+    margin-top: 8px;
+    text-align: center;
+    
+}
+
+#texto {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+
+}
+.inpage {
+    color: black;
+    text-decoration: none;
+}
+
+.inpage:hover {
+    color: dimgray;
+}
+
+#imagem {
+    width: 200px;
+    height: 200px;
+    background-image: url(chrisade.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
