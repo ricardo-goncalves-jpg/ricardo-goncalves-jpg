@@ -1,23 +1,58 @@
+@font-face {
+  font-family: Union;
+  src: url(union_regular.otf);
+}
+
+@font-face {
+  font-family: Panama Demo;
+  src: url(Panama_Demo_Regular.otf);
+}
+
+
+p {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 body {
 	background-color: #CCCCCC  ;
 	margin: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content:flex-start;
-	flex-direction: column;
+    -webkit-box-pack:start;
+        -ms-flex-pack:start;
+            justify-content:flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
     font-family: Union;
+    font-size: 18px;
 }
 
 
 #main {
 	width: 100%;
     height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    align-items: flex-start;
-    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin-left: 14px;
-    margin-top: 8px;
+    margin-top: 0px;
     text-align: center;
     
 }
@@ -25,12 +60,25 @@ body {
 #texto {
     width: 100%;
     height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    align-items: flex-start;
-    justify-content: flex-start;
-    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    text-align: left;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 2px;
 
 }
 .inpage {
