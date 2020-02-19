@@ -970,26 +970,32 @@ font-family: Union;
  
       #alwfav2 {
         padding-top: 3px;
+        width: 100%;
     }
     
         #artofwar2 {
         padding-top: 3px;
+          width: 100%;
     }
     
         #ontherole2 {
         padding-top: 3px;
+          width: 100%;
     }
     
         #cisterna2 {
         padding-top: 3px;
+          width: 100%;
     }
     
             #premium2 {
         padding-top: 3px;
+              width: 100%;
     }
     
                #crise2 {
         padding-top: 3px;
+                 width: 100%;
     }
   
       .dates {
