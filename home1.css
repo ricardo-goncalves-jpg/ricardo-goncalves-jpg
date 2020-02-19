@@ -850,3 +850,84 @@ font-family: Union;
 .creds {
   color: dimgrey;
 }
+
+@media (max-width:768px) {
+    
+    #alwfav {
+        width: 100%;
+    }
+    
+     #artofwar {
+        width: 100%;
+    }
+    
+     #cisterna {
+        width: 100%;
+    }
+    
+     #premium {
+        width: 100%;
+    }
+    
+     #ontherole {
+        width: 100%;
+    }
+    
+     #crise {
+        width: 100%;
+    }
+    
+    #header01 {
+          padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    #trabalhos {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    #header011 {
+  width: 75%;
+    }
+    
+        #header012 {
+  width: 25%;
+    }
+    
+    #header01211 {
+        width: 60px;
+    }
+    
+     #header01212 {
+        width: 100px;
+    }
+    
+    #theend {
+      -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+    }
+    
+    #theend1 {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    #theend2 {
+        width: 100%;
+    }
+    #theend3 {
+        width: 100%;
+    }
+    #theend4 {
+        width: 100%;
+    }
+    #theend5 {
+        width: 100%;
+    }    
+      #theend6 {
+        width: 100%;
+    } 
+}
+
