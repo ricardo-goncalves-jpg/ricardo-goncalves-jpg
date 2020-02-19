@@ -8,6 +8,11 @@
   src: url(Panama_Demo_Regular.otf);
 }
 
+@font-face {
+  font-family: Lausanne;
+  src: url(lausanne.otf);
+}
+
 * {
   box-sizing: border-box;
 }
