@@ -13,6 +13,11 @@
   src: url(lausanne.otf);
 }
 
+@font-face {
+  font-family: Self Modern;
+  src: url(bretagne_self-modern_regular.otf);
+}
+
 * {
   box-sizing: border-box;
 }
