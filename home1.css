@@ -926,18 +926,28 @@ font-family: Union;
     }
     #theend2 {
         width: 100%;
+              text-align: center;
+        justify-content: center;
     }
     #theend3 {
         width: 100%;
+              text-align: center;
+        justify-content: center;
     }
     #theend4 {
         width: 100%;
+              text-align: center;
+        justify-content: center;
     }
     #theend5 {
         width: 100%;
+              text-align: center;
+        justify-content: center;
     }    
       #theend6 {
         width: 100%;
+                text-align: center;
+        justify-content: center;
     } 
   
   .titles {
@@ -1005,6 +1015,9 @@ font-family: Union;
   
       .dates {
         font-size: 18px;
+    }
+      #footer {
+        margin-bottom: 30px;
     }
   
 }
