@@ -740,9 +740,9 @@ font-family: Union;
   height: auto;
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-          flex-direction: row;
+          flex-direction: column;
   font-size: 18px;
   font-family: Union, sans-serif;
   line-height: 1;
@@ -751,8 +751,8 @@ font-family: Union;
   background-color: transparent;
   margin-bottom: 18px;
   letter-spacing: 0;
-  -moz-text-align-last: center;
-       text-align-last: center;
+  -moz-text-align-last: left;
+       text-align-last: left;
 }
 
 #theend1 {
