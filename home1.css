@@ -751,8 +751,8 @@ font-family: Union;
   background-color: transparent;
   margin-bottom: 18px;
   letter-spacing: 0;
-  -moz-text-align-last: left;
-       text-align-last: left;
+  -moz-text-align-last: center;
+       text-align-last: center;
 }
 
 #theend1 {
@@ -764,6 +764,8 @@ font-family: Union;
   -webkit-box-direction: normal;
           flex-direction: row;
   background-color: transparent;
+    -moz-text-align-last: left;
+       text-align-last: left;
 }
 
 #theend2 {
