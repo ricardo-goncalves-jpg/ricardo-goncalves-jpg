@@ -98,7 +98,7 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
-  font-family: Union;
+  font-family: Union, serif;
 }
 
 myBtninfo:hover {
