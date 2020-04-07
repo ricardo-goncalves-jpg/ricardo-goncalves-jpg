@@ -919,6 +919,7 @@ font-family: Union;
       -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
+      text-align: center;
     }
     
     #theend1 {
