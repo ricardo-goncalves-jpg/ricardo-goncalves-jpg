@@ -162,7 +162,7 @@ myBtninfo:hover {
   padding-left: 14px;
   padding-bottom: 6px;
   background-color: transparent;
-  line-height: 1.4;
+  line-height: 1.1;
   /*    font-weight: bolder;*/
   color: black;
   -webkit-text-stroke: 0px black;
@@ -373,7 +373,7 @@ font-family: Union;
   -webkit-box-direction: normal;
           flex-direction: column;
   color: black;
-  line-height: 1.4;
+  line-height: 1.1;
   padding-top: 1px;
   -webkit-column-count: 3;
      -moz-column-count: 3;
@@ -421,7 +421,7 @@ font-family: Union;
   font-size: 22px;
   display: inline-block;
   cursor: pointer;
-  line-height: 1.4;
+  line-height: 1.1;
   outline: none;
 }
 
@@ -458,7 +458,7 @@ font-family: Union;
   -webkit-box-direction: normal;
           flex-direction: column;
   color: black;
-  line-height: 1.4;
+  line-height: 1.1;
 }
 
 .mySlides2 {
@@ -482,7 +482,7 @@ font-family: Union;
   font-size: 22px;
   display: inline-block;
   cursor: pointer;
-  line-height: 1.4;
+  line-height: 1.1;
   outline: none;
 }
 
@@ -519,7 +519,7 @@ font-family: Union;
   -webkit-box-direction: normal;
           flex-direction: column;
   color: black;
-  line-height: 1.4;
+  line-height: 1.1;
   padding-top: 1px;
 }
 
@@ -544,7 +544,7 @@ font-family: Union;
   font-size: 22px;
   display: inline-block;
   cursor: pointer;
-  line-height: 1.4;
+  line-height: 1.1;
   outline: none;
 }
 
@@ -581,7 +581,7 @@ font-family: Union;
   -webkit-box-direction: normal;
           flex-direction: column;
   color: black;
-  line-height: 1.4;
+  line-height: 1.1;
   padding-top: 1px;
 }
 
@@ -606,7 +606,7 @@ font-family: Union;
   font-size: 22px;
   display: inline-block;
   cursor: pointer;
-  line-height: 1.4;
+  line-height: 1.1;
   outline: none;
 }
 
@@ -643,7 +643,7 @@ font-family: Union;
   -webkit-box-direction: normal;
           flex-direction: column;
   color: black;
-  line-height: 1.4;
+  line-height: 1.1;
   padding-top: 1px;
 }
 
@@ -668,7 +668,7 @@ font-family: Union;
   font-size: 22px;
   display: inline-block;
   cursor: pointer;
-  line-height: 1.4;
+  line-height: 1.1;
   outline: none;
 }
 
@@ -705,7 +705,7 @@ font-family: Union;
   -webkit-box-direction: normal;
           flex-direction: column;
   color: black;
-  line-height: 1.4;
+  line-height: 1.1;
   padding-top: 1px;
   padding-bottom: 20px;
 }
@@ -731,7 +731,7 @@ font-family: Union;
   font-size: 22px;
   display: inline-block;
   cursor: pointer;
-  line-height: 1.4;
+  line-height: 1.1;
   outline: none;
 }
 
@@ -745,7 +745,7 @@ font-family: Union;
           flex-direction: row;
   font-size: 18px;
   font-family: Union, sans-serif;
-  line-height: 1.4;
+  line-height: 1.1;
   padding-left: 1%;
   padding-right: 1%;
   background-color: transparent;
